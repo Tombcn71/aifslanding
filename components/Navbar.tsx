@@ -97,7 +97,7 @@ const Navbar = () => {
               })}
               <li>
                 <NavLink
-                  href="https://app.aifotosessie.nl/"
+                  href="/"
                   className="block font-lg  text-lg text-white bg-sky-600 hover:bg-sky-600 active:bg-sky-600 md:inline">
                   Bekijk demo
                 </NavLink>
