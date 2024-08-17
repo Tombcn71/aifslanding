@@ -10,17 +10,17 @@ export default function Home() {
           <span className="relative whitespace-nowrap  text-sky-600">
             <span className="relative">je klanten</span>
           </span>{" "}
-          `Professionele Portetfoto's maken met AI✨`
+          Professionele Portetfoto's maken met AI✨
         </h1>
         <h2 className="mx-auto mt-12 mb-12 max-w-xl text-lg sm:text-gray-800  text-gray-800 leading-7">
-          `Blijf vooroplopen en laat je klanten online AI Portetfoto's genereren
+          Blijf vooroplopen en laat je klanten online AI Portetfoto's genereren
           in HD studio kwaliteit met de app van AI fotosesie, makkelijk door ons
-          in 1 week geintegreerd.``
+          in 1 week geintegreerd.
         </h2>
         <Link href="/login">
           {" "}
           <button className="border rounded-lg  h-14 px-10 m-2 text-xl text-white hover:bg-sky-600 bg-sky-600">
-            `Start jouw AI transitie`
+            Start jouw AI transitie
           </button>
         </Link>
         <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
