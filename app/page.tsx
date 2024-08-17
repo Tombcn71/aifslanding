@@ -19,7 +19,7 @@ export default function Home() {
           in HD studio kwaliteit met de app van AI fotosesie, makkelijk door ons
           in 1 week geintegreerd.
         </h2>
-        <Link href="/login">
+        <Link href="/">
           {" "}
           <button className="border rounded-lg  h-14 px-10 m-2 text-xl text-white hover:bg-sky-600 bg-sky-600">
             Start jouw AI transitie
