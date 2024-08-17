@@ -17,13 +17,11 @@ export default () => {
     <nav className="bg-white w-full border-b md:border-0 md:static">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
-          <a href="javascript:void(0)">
-            <img
-              src="https://www.floatui.com/logo.svg"
-              width={120}
-              height={50}
-              alt="Float UI logo"
-            />
+          <a href="/">
+            <h2 className=" font-medium  text-2xl items-center   flex">
+              <img src="/logo7.png" width={30} height={30} alt="Logo" />{" "}
+              <span className="mt-1 ml-1 pb-1 px-2"> AI Fotosessie</span>{" "}
+            </h2>
           </a>
           <div className="md:hidden">
             <button
@@ -76,8 +74,8 @@ export default () => {
         <div className="hidden md:inline-block">
           <a
             href="javascript:void(0)"
-            className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow">
-            Get Started
+            className="py-4 px-6 text-white text-xl bg-sky-600 hover:bg-sky-600 rounded-md ">
+            Bekijk demo
           </a>
         </div>
       </div>
