@@ -10,7 +10,7 @@ export default function Home() {
           <span className="relative whitespace-nowrap  text-sky-600">
             <span className="relative">je klanten</span>
           </span>{" "}
-          `Professionele Portetfoto's maken met AI✨``
+          `Professionele Portetfoto's maken met AI✨`
         </h1>
         <h2 className="mx-auto mt-12 mb-12 max-w-xl text-lg sm:text-gray-800  text-gray-800 leading-7">
           `Blijf vooroplopen en laat je klanten online AI Portetfoto's genereren
