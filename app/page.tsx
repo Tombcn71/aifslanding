@@ -1,3 +1,5 @@
+import Features from "@/components/Features";
+import Prijzen from "@/components/Prijzen";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -29,8 +31,11 @@ export default function Home() {
           </div>
         </div>
       </main>
-
-      <div> </div>
+      <Features />
+      <div>
+        {" "}
+        <Prijzen />
+      </div>
     </div>
   );
 }
