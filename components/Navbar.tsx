@@ -75,7 +75,7 @@ export default () => {
           <a
             href="https://www.aifotosessie.app"
             className="py-4 px-6 text-white text-xl bg-sky-600 hover:bg-sky-600 rounded-md ">
-            Bekijk demo
+            Bekijk demo app
           </a>
         </div>
       </div>
