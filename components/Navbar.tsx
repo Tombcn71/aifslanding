@@ -73,7 +73,7 @@ export default () => {
         </div>
         <div className="hidden md:inline-block">
           <a
-            href="javascript:void(0)"
+            href="https://www.aifotosessie.app"
             className="py-4 px-6 text-white text-xl bg-sky-600 hover:bg-sky-600 rounded-md ">
             Bekijk demo
           </a>

@@ -2,8 +2,8 @@ export default () => {
   const Prijzen = [
     {
       name: "Startup",
-      desc: "Jaar licentie voor de app volledig geintegreerd na 3 jaar is de app van jou, jaarlijks opzegbaar",
-      price: 1200,
+      desc: "Jaar licentie voor de app volledig geintegreerd, jaarlijks opzegbaar",
+      price: 600,
       isMostPop: true,
       features: [
         "betaling per jaar voor licensie",
@@ -18,11 +18,11 @@ export default () => {
   ];
 
   return (
-    <section className="pt-28 ">
+    <section className="pt-28 px-8">
       <div className="max-w-screen-xl mx-auto  text-gray-600 md:px-8">
         <div className="relative max-w-xl mx-auto sm:text-center">
           <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-            Pricing for all sizes
+            Prijs
           </h3>
           <div className="mt-3 max-w-xl">
             <p>
@@ -40,7 +40,7 @@ export default () => {
               }`}>
               {item.isMostPop ? (
                 <span className="w-32 absolute -top-5 left-0 right-0 mx-auto px-3 py-2 rounded-full border shadow-md bg-white text-center text-gray-700 text-sm font-semibold">
-                  Meest populair
+                  beste keuze
                 </span>
               ) : (
                 ""
@@ -48,7 +48,7 @@ export default () => {
               <div className="p-8 space-y-4 border-b">
                 <span className="text-indigo-600 font-medium">{item.name}</span>
                 <div className="text-gray-800 text-3xl font-semibold">
-                  ${item.price}{" "}
+                  €{item.price}{" "}
                   <span className="text-xl text-gray-600 font-normal"></span>
                 </div>
                 <p>{item.desc}</p>
