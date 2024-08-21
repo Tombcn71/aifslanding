@@ -1,6 +1,5 @@
 import Features from "@/components/Features";
 import Prijzen from "@/components/Prijzen";
-import Team from "@/components/Team";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -37,9 +36,7 @@ export default function Home() {
         {" "}
         <Prijzen />
       </div>
-      <div>
-        <Team />
-      </div>
+      <div></div>
     </div>
   );
 }
